@@ -18,6 +18,19 @@ By the end, you'll have a live personal portfolio on the internet. For real.
 
 ---
 
+## Assignment Repos
+
+Use these dedicated repos for current coursework assignments:
+
+- **Week 8: Personal Link Dashboard**
+  - Repo: <https://github.com/sicxz/wk8-link-dashboard-assignment>
+  - Issues Path: <https://github.com/sicxz/wk8-link-dashboard-assignment/issues>
+- **Project #5: Research Dashboard for Project 2**
+  - Repo: <https://github.com/sicxz/project5-research-dashboard-assignment>
+  - Issues Path: <https://github.com/sicxz/project5-research-dashboard-assignment/issues>
+
+---
+
 ## Your Learning Path
 
 Follow each step in order. Every step is a GitHub Issue — click the link to open it and follow the instructions inside.
