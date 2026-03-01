@@ -23,17 +23,17 @@ By the end, you'll have a live personal portfolio on the internet. For real.
 Follow each step in order. Every step is a GitHub Issue — click the link to open it and follow the instructions inside.
 
 ### Getting Started
-- [ ] [Step 1: Create Your GitHub Account](#) — Issue [#1]
-- [ ] [Step 2: Create Your First Repository](#) — Issue [#2]
-- [ ] [Step 3: Upload Your Starter Files](#) — Issue [#3]
+- [ ] [Step 1: Create Your GitHub Account](../../issues/1) — Issue #1
+- [ ] [Step 2: Create Your First Repository](../../issues/2) — Issue #2
+- [ ] [Step 3: Upload Your Starter Files](../../issues/3) — Issue #3
 
 ### Level Up
-- [ ] [Step 4: Launch a Codespace](#) — Issue [#4]
-- [ ] [Step 5: Connect Codespaces to Your Local VS Code](#) — Issue [#5]
-- [ ] [Step 6: Install Essential VS Code Extensions](#) — Issue [#6]
-- [ ] [Step 7: Clone the Repo to Your Computer](#) — Issue [#7]
-- [ ] [Step 8: Deploy with GitHub Pages](#) — Issue [#8]
-- [ ] [Step 9: What's Next?](#) — Issue [#9]
+- [ ] [Step 4: Launch a Codespace](../../issues/4) — Issue #4
+- [ ] [Step 5: Connect Codespaces to Your Local VS Code](../../issues/5) — Issue #5
+- [ ] [Step 6: Install Essential VS Code Extensions](../../issues/6) — Issue #6
+- [ ] [Step 7: Clone the Repo to Your Computer](../../issues/8) — Issue #8
+- [ ] [Step 8: Deploy with GitHub Pages](../../issues/9) — Issue #9
+- [ ] [Step 9: What's Next?](../../issues/10) — Issue #10
 
 > **Tip:** You can check off each box right here in GitHub as you complete it! Click "Edit" on this file, or check them off in the rendered view.
 
