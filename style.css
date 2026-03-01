@@ -1,0 +1,182 @@
+/* ============================================
+   CSS Variables (Custom Properties)
+   Change these values to customize your site's
+   color scheme. Try different colors and see
+   what happens!
+   ============================================ */
+:root {
+  --color-primary: #2563eb;       /* Main accent color (links, buttons) */
+  --color-primary-dark: #1d4ed8;  /* Darker shade for hover effects */
+  --color-background: #f8fafc;    /* Page background */
+  --color-surface: #ffffff;       /* Card / section background */
+  --color-text: #1e293b;          /* Main text color */
+  --color-text-light: #64748b;    /* Secondary / muted text */
+  --color-border: #e2e8f0;        /* Borders and dividers */
+  --font-main: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ============================================
+   Base Styles
+   These apply to the whole page and reset
+   some default browser spacing.
+   ============================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+/* ============================================
+   Header / Hero Section
+   The big banner at the top of the page.
+   ============================================ */
+.hero {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  opacity: 0.9;
+}
+
+/* ============================================
+   About Section
+   ============================================ */
+.about {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+
+.about p {
+  color: var(--color-text-light);
+  font-size: 1.05rem;
+}
+
+/* ============================================
+   Projects Section
+   Uses flexbox to lay out the cards in a row.
+   ============================================ */
+.projects {
+  max-width: 960px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.projects h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+}
+
+/* Flexbox container — cards sit side by side */
+.project-cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ============================================
+   Card Component
+   Each project gets its own card.
+   ============================================ */
+.card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  flex: 1 1 260px;
+  max-width: 300px;
+  text-align: left;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card p {
+  color: var(--color-text-light);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.card-link {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+footer {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  margin-top: 3rem;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-light);
+  font-size: 0.9rem;
+}
+
+footer a {
+  font-weight: 600;
+}
+
+/* ============================================
+   Responsive Design
+   When the screen is narrower than 640px
+   (phones), stack the cards vertically.
+   ============================================ */
+@media (max-width: 640px) {
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+
+  .project-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+}
