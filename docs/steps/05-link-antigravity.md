@@ -1,16 +1,17 @@
-# Step 5: Link Antigravity to Your Repo Folder
+# Step 5: Link Antigravity to `github-startup`
 
 ## Goal
-Open the local `project-setup` folder in Antigravity so it can read and edit files there.
+Open the same local repo folder in Antigravity.
 
 ## Instructions
-1. Open Antigravity.
-2. Complete sign-in/setup if prompted.
-3. Grant file permissions if your OS requests them.
-4. Use Antigravity's open/import project flow to select your local `project-setup` folder.
-5. Confirm Antigravity can see `README.md` in that folder.
+1. Install Antigravity if needed: <https://antigravity.google/>
+2. Open Antigravity.
+3. Complete sign-in/setup if prompted.
+4. Grant file access if your OS asks.
+5. Open your local folder: `Documents/GitHub/github-startup`.
+6. Confirm Antigravity can see files such as `README.md` and `index.html`.
 
 ## Checklist
-- [ ] Antigravity opens correctly.
-- [ ] Antigravity can access my local `project-setup` folder.
+- [ ] Antigravity is installed and opens.
+- [ ] Antigravity can access `Documents/GitHub/github-startup`.
 - [ ] I can see repo files inside Antigravity.

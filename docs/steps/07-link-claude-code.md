@@ -1,19 +1,17 @@
-# Step 7: Link Claude Code to Your Repo Folder
+# Step 7: Link Claude Code to `github-startup`
 
 ## Goal
-Run Claude Code in the same local `project-setup` folder.
+Use the same local repo folder with Claude Code.
 
 ## Instructions
-1. Open a terminal.
-2. Change into your local repo folder:
-```bash
-cd <path-to-project-setup>
-```
-3. Start Claude Code from that folder.
-4. Ask Claude Code to run `git status`.
-5. Confirm it reports the current repository correctly.
+1. Open Claude Code.
+2. Open/select folder: `Documents/GitHub/github-startup`.
+3. Ask Claude Code to list files in the folder.
+4. Confirm it can read `README.md` and `index.html`.
+
+If Claude Code on your machine requires terminal launch, treat this step as optional for now and continue.
 
 ## Checklist
-- [ ] Claude Code starts from my local repo folder.
-- [ ] Claude Code can run commands in the repo.
-- [ ] Claude Code can see Git status for the repo.
+- [ ] Claude Code can open `Documents/GitHub/github-startup`.
+- [ ] Claude Code can read files in the repo.
+- [ ] I understand this step can be optional if terminal-only.

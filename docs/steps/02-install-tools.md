@@ -1,20 +1,19 @@
-# Step 2: Install Required Tools
+# Step 2: Create Local Repo Folder and Install VS Code
 
 ## Goal
-Install the tools needed to connect one local repo folder to Antigravity, Codex, and Claude Code.
+Set up the local folder where all your repositories will live, and install VS Code.
 
 ## Instructions
-1. Install **GitHub Desktop**: <https://desktop.github.com/download/>
-2. Install **VS Code**: <https://code.visualstudio.com/>
-3. Install **Antigravity**: <https://antigravity.google/>
-4. Install/setup **Codex** (Desktop or CLI).
-5. Install/setup **Claude Code**.
-6. Open a terminal and run `git --version` to confirm Git is available.
+1. In Finder/File Explorer, open your **Documents** folder.
+2. Create a folder named **`GitHub`**.
+3. Download VS Code: <https://code.visualstudio.com/>
+4. Install VS Code.
+5. On macOS, move VS Code into the **Applications** folder if it does not move there automatically.
+6. Open VS Code once, then close it.
+
+If you already have VS Code installed, skip to **Step 3**.
 
 ## Checklist
-- [ ] I installed GitHub Desktop.
-- [ ] I installed VS Code.
-- [ ] I installed Antigravity.
-- [ ] I installed Codex.
-- [ ] I installed Claude Code.
-- [ ] I confirmed Git works with `git --version`.
+- [ ] I created `Documents/GitHub`.
+- [ ] VS Code is installed.
+- [ ] VS Code is in Applications (macOS) or installed in Program Files (Windows).

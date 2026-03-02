@@ -1,24 +1,20 @@
-# Step 8: Verify Git Commit and Push
+# Step 8: Verify Commit and Push in VS Code
 
 ## Goal
-Confirm your local setup is correctly connected to GitHub with a real commit.
+Confirm VS Code is fully connected to your GitHub repository.
 
 ## Instructions
-1. Edit `README.md` in your local `project-setup` folder.
+1. In VS Code, open `README.md` in `github-startup`.
 2. Add one line: `Setup check completed.`
-3. Commit the change using GitHub Desktop or terminal.
-4. Push to GitHub.
-5. Refresh your GitHub repo page and confirm the new line appears.
-
-Terminal option:
-```bash
-git add README.md
-git commit -m "Setup check"
-git push
-```
+3. Save the file.
+4. Open **Source Control** in VS Code.
+5. In the message box, type: `Setup check`.
+6. Click **Commit**.
+7. Click **Sync Changes** (or **Push**).
+8. Open your `github-startup` repo on GitHub and confirm the new line appears in `README.md`.
 
 ## Checklist
-- [ ] I made a local change in `README.md`.
-- [ ] I committed the change.
-- [ ] I pushed the change to GitHub.
-- [ ] I can see the change on the GitHub website.
+- [ ] I edited `README.md` in VS Code.
+- [ ] I committed using Source Control.
+- [ ] I pushed/synced to GitHub.
+- [ ] I confirmed the change on github.com.

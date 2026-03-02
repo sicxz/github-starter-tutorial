@@ -2,7 +2,7 @@
 
 This tutorial only handles setup.
 
-Goal: create one GitHub repository with a README, clone it locally, and connect that same local folder to:
+Goal: create one GitHub repository named `github-startup`, clone it locally, and connect that same local folder to:
 - Antigravity
 - Codex
 - Claude Code
@@ -18,13 +18,14 @@ After setup is complete, you can move to one of the build tracks:
 ## What You'll Finish
 
 By the end, you will have:
-- a GitHub repository with `README.md`
-- a local clone on your computer
+- a GitHub repository named `github-startup`
+- a local clone in `Documents/GitHub/github-startup`
+- VS Code connected to your GitHub account
 - Antigravity pointed at that local folder
 - Codex pointed at that local folder
-- Claude Code running in that local folder
-- one commit pushed to GitHub as a setup check
-- a temporary GitHub Pages URL proving your deployment pipeline works
+- Claude Code pointed at that local folder (optional if terminal-only)
+- one commit pushed from VS Code as a setup check
+- a temporary GitHub Pages URL proving deployment works
 
 ---
 
@@ -65,14 +66,14 @@ Before you begin Step 1, create your own copy of this tutorial repo so you can t
 ## Setup Steps
 
 - [ ] [Step 1: Create Your Account and Tutorial Copy](docs/steps/01-account-and-template.md)
-- [ ] [Step 2: Install Required Tools](docs/steps/02-install-tools.md)
-- [ ] [Step 3: Create Your Setup Repository](docs/steps/03-create-setup-repo.md)
-- [ ] [Step 4: Clone Your Repo Locally](docs/steps/04-clone-repo-locally.md)
-- [ ] [Step 5: Link Antigravity to Your Repo Folder](docs/steps/05-link-antigravity.md)
-- [ ] [Step 6: Link Codex to Your Repo Folder](docs/steps/06-link-codex.md)
-- [ ] [Step 7: Link Claude Code to Your Repo Folder](docs/steps/07-link-claude-code.md)
-- [ ] [Step 8: Verify Git Commit and Push](docs/steps/08-verify-git-push.md)
-- [ ] [Step 9: Deploy a Temporary GitHub Pages Test Site](docs/steps/09-deploy-temporary-pages.md)
+- [ ] [Step 2: Create Local Repo Folder and Install VS Code](docs/steps/02-install-tools.md)
+- [ ] [Step 3: Link VS Code to GitHub](docs/steps/03-link-vscode-to-github.md)
+- [ ] [Step 4: Clone `github-startup` in VS Code Source Control](docs/steps/04-clone-repo-locally.md)
+- [ ] [Step 5: Link Antigravity to `github-startup`](docs/steps/05-link-antigravity.md)
+- [ ] [Step 6: Link Codex to `github-startup`](docs/steps/06-link-codex.md)
+- [ ] [Step 7: Link Claude Code to `github-startup`](docs/steps/07-link-claude-code.md)
+- [ ] [Step 8: Verify Commit and Push in VS Code](docs/steps/08-verify-git-push.md)
+- [ ] [Step 9: Deploy `github-startup` to GitHub Pages](docs/steps/09-deploy-temporary-pages.md)
 - [ ] [Step 10: Choose Your Project Path](docs/steps/10-choose-project-path.md)
 
 ---
@@ -94,10 +95,10 @@ Note: The Week 8 URL includes `link-dashboard` from earlier naming. In this tuto
 
 ## Need Help?
 
-- If a tool cannot see files, confirm you opened the same local repo folder.
-- If `git push` fails, run `git status` and confirm you are in the right directory.
+- If a tool cannot see files, confirm you opened `Documents/GitHub/github-startup`.
+- If VS Code cannot clone from GitHub, re-check Step 3 sign-in.
 - If GitHub Pages does not update immediately, wait 2-5 minutes and hard refresh.
-- If authentication fails, sign out/in again for the specific tool.
+- If account auth fails, sign out/in again for that tool.
 
 ---
 
