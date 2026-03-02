@@ -82,10 +82,10 @@ Before you begin Step 1, create your own copy of this tutorial repo so you can t
 
 Once setup is complete, choose one:
 
-- **Week 8: Personal Dashboard**
+- **Personal Dashboard**
   - Repo: <https://github.com/sicxz/wk8-link-dashboard-assignment>
   - Issues: <https://github.com/sicxz/wk8-link-dashboard-assignment/issues>
-- **Project #5: Research Dashboard for Project 2**
+- **Research Dashboard for Project 2**
   - Repo: <https://github.com/sicxz/project5-research-dashboard-assignment>
   - Issues: <https://github.com/sicxz/project5-research-dashboard-assignment/issues>
 
