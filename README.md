@@ -14,7 +14,7 @@ By the end, you'll have a live site/app on the internet with a link you can shar
 - **Codespaces** — A full coding environment right in your browser (no install needed)
 - **VS Code** — The code editor used by millions of professional developers
 - **Git** — The version control system that tracks every change you make
-- **GitHub Pages** — Free website hosting, straight from your repo
+- **GitHub Pages** — Free website/app-ish hosting, straight from your repo
 
 ---
 
