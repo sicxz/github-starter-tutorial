@@ -27,8 +27,10 @@ Before you begin Step 1, you must be in your **own repository copy**.
 1. Create a GitHub account (if needed).
 2. Open this starter repository.
 3. Click **Use this template**.
-4. Create a new repository under your own account.
-5. Continue the tutorial in your new repository.
+   <img width="1302" height="1150" alt="image showing where use this template is" src="https://github.com/user-attachments/assets/b4f59a25-c881-4a38-8aa3-73efd5553a6f" />
+
+5. Create a new repository under your own account.
+6. Continue the tutorial in your new repository.
 
 > Progress checkboxes and issue closing should happen in your own repo, not the original starter repo.
 
