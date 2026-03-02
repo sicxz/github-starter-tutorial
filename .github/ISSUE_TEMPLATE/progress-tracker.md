@@ -15,7 +15,8 @@ assignees: ""
 - [ ] Step 6: Link Codex to Your Repo Folder (`docs/steps/06-link-codex.md`)
 - [ ] Step 7: Link Claude Code to Your Repo Folder (`docs/steps/07-link-claude-code.md`)
 - [ ] Step 8: Verify Git Commit and Push (`docs/steps/08-verify-git-push.md`)
-- [ ] Step 9: Choose Your Project Path (`docs/steps/09-choose-project-path.md`)
+- [ ] Step 9: Deploy a Temporary GitHub Pages Test Site (`docs/steps/09-deploy-temporary-pages.md`)
+- [ ] Step 10: Choose Your Project Path (`docs/steps/10-choose-project-path.md`)
 
 ## Notes
 

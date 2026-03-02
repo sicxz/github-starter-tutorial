@@ -24,6 +24,7 @@ By the end, you will have:
 - Codex pointed at that local folder
 - Claude Code running in that local folder
 - one commit pushed to GitHub as a setup check
+- a temporary GitHub Pages URL proving your deployment pipeline works
 
 ---
 
@@ -71,7 +72,8 @@ Before you begin Step 1, create your own copy of this tutorial repo so you can t
 - [ ] [Step 6: Link Codex to Your Repo Folder](docs/steps/06-link-codex.md)
 - [ ] [Step 7: Link Claude Code to Your Repo Folder](docs/steps/07-link-claude-code.md)
 - [ ] [Step 8: Verify Git Commit and Push](docs/steps/08-verify-git-push.md)
-- [ ] [Step 9: Choose Your Project Path](docs/steps/09-choose-project-path.md)
+- [ ] [Step 9: Deploy a Temporary GitHub Pages Test Site](docs/steps/09-deploy-temporary-pages.md)
+- [ ] [Step 10: Choose Your Project Path](docs/steps/10-choose-project-path.md)
 
 ---
 
@@ -94,6 +96,7 @@ Note: The Week 8 URL includes `link-dashboard` from earlier naming. In this tuto
 
 - If a tool cannot see files, confirm you opened the same local repo folder.
 - If `git push` fails, run `git status` and confirm you are in the right directory.
+- If GitHub Pages does not update immediately, wait 2-5 minutes and hard refresh.
 - If authentication fails, sign out/in again for the specific tool.
 
 ---

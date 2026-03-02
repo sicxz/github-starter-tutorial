@@ -10,4 +10,5 @@ Use this index if you are following the tutorial from file-based steps.
 6. [Step 6: Link Codex to Your Repo Folder](06-link-codex.md)
 7. [Step 7: Link Claude Code to Your Repo Folder](07-link-claude-code.md)
 8. [Step 8: Verify Git Commit and Push](08-verify-git-push.md)
-9. [Step 9: Choose Your Project Path](09-choose-project-path.md)
+9. [Step 9: Deploy a Temporary GitHub Pages Test Site](09-deploy-temporary-pages.md)
+10. [Step 10: Choose Your Project Path](10-choose-project-path.md)

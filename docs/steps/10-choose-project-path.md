@@ -1,7 +1,7 @@
-# Step 9: Choose Your Project Path
+# Step 10: Choose Your Project Path
 
 ## Goal
-After setup is complete, choose the project track you want to build.
+After setup and deployment checks are complete, choose the project track you want to build.
 
 ## Instructions
 1. Choose one project path below.
