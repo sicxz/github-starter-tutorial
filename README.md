@@ -2,7 +2,7 @@
 
 You made it — this is your very first step into the world of coding and collaboration. This repository (or "repo" for short) is a hands-on tutorial that will walk you through everything you need to get started with GitHub, VS Code, and deploying your own website/web-app.
 
-By the end, you'll have a live personal portfolio on the internet. For real.
+By the end, you'll have a live site/app on the internet with a link you can share. For real.
 
 ![GitHub Pages Deploy](https://img.shields.io/badge/GitHub%20Pages-Deploy-blue?logo=github)
 
