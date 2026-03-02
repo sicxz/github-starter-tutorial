@@ -1,19 +1,19 @@
-# Step 1: Create Your Account and Your Own Repo
+# Step 1: Create Your Account and Tutorial Copy
 
 ## Goal
-Set up a GitHub account and create your own independent copy of this starter using **Use this template**.
+Create a GitHub account and your own copy of this tutorial so you can track setup progress.
 
 ## Instructions
 1. Create a GitHub account if you do not already have one.
-2. Open the original starter repository.
-3. In the repository header row (the same row as **Star**), click **Use this template**.
-4. Name your new repository.
-5. Create the repository under your own GitHub account.
+2. Open the original tutorial repository.
+3. In the repository header row (same row as **Star**), click **Use this template**.
+4. Create a new repository under your own account.
+5. Open your new repository copy and keep it open for the rest of this tutorial.
 
 Do **not** click the green **Code** button for this step.
-If **Use this template** is missing, make sure you are signed in and using the desktop layout.
+If **Use this template** is missing, make sure you are signed in and using desktop layout.
 
 ## Checklist
 - [ ] I have a GitHub account.
-- [ ] I created my own repository from the template.
-- [ ] I can confirm this repo is under my account, not the instructor account.
+- [ ] I created my own tutorial copy from the template.
+- [ ] I can confirm this tutorial copy is under my account.
