@@ -26,10 +26,13 @@ Before you begin Step 1, you must be in your **own repository copy**.
 
 1. Create a GitHub account (if needed).
 2. Open this starter repository.
-3. Click **Use this template**.
+3. In the repository header row (the same row as **Star**), click **Use this template**.
 4. Create a new repository under your own account.
 5. Continue the tutorial in your new repository.
 
+> Do **not** click the green **Code** button for this step.
+> If **Use this template** is missing, make sure you are signed in and viewing the desktop layout.
+>
 > Progress checkboxes and issue closing should happen in your own repo, not the original starter repo.
 
 ---
