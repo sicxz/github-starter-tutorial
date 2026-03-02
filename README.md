@@ -102,4 +102,15 @@ Note: The Week 8 URL includes `link-dashboard` from earlier naming. In this tuto
 
 ---
 
+## Why GitHub?
+
+From real-world AI development workflows, GitHub is the fastest way to get running because it gives you one shared source of truth for your code.
+
+- Your repository is the handoff point between you and AI tools.
+- You get version history, rollback, and clear change tracking by default.
+- You can deploy quickly with GitHub Pages and share a working URL.
+- You can switch between Antigravity, Codex, and Claude Code without changing your core workflow.
+
+---
+
 Small setup wins now make every project easier later.
