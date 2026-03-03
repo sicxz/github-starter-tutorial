@@ -1,4 +1,4 @@
-# Step 9: Deploy `github-startup` to GitHub Pages
+# Step 7: Deploy `github-startup` to GitHub Pages
 
 ## Goal
 Deploy the included temporary `index.html` and confirm your deployment flow works.

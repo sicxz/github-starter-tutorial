@@ -1,4 +1,4 @@
-# Step 7: Link Claude Code to `github-startup`
+# Addendum B (Optional): Link Claude Code to `github-startup`
 
 ## Goal
 Use the same local repo folder with Claude Code.

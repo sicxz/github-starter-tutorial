@@ -2,10 +2,7 @@
 
 This tutorial only handles setup.
 
-Goal: create one GitHub repository named `github-startup`, clone it locally, and connect that same local folder to:
-- Antigravity
-- Codex
-- Claude Code
+Goal: create one GitHub repository named `github-startup`, clone it locally, and complete a fully authenticated first push from VS Code.
 
 No HTML, CSS, or development experience is required.
 
@@ -22,10 +19,9 @@ By the end, you will have:
 - a local clone in `Documents/GitHub/github-startup`
 - VS Code connected to your GitHub account
 - Antigravity pointed at that local folder
-- Codex pointed at that local folder
-- Claude Code pointed at that local folder (optional if terminal-only)
 - one commit pushed from VS Code as a setup check
 - a temporary GitHub Pages URL proving deployment works
+- optional addendums for Codex, Claude Code, and GitHub CLI auth if needed
 
 ---
 
@@ -48,33 +44,37 @@ Before you begin Step 1, create your own copy of this tutorial repo so you can t
 
 ## Choose Your Tracking Mode
 
-### Track A (Recommended): File-Based Steps + Progress Tracker
+### Track A (Recommended): Generated Issues
+
+- Open the **Actions** tab in your own repo.
+- Run **Initialize Tutorial Issues**.
+- It creates issues from required steps (`docs/steps/`) and optional addendums (`docs/addendums/`).
+- Complete and close each issue as you go.
+
+### Track B (Optional): File-Based Steps + Progress Tracker
 
 - Read each step file in `docs/steps/`.
 - Create one issue from the **Tutorial Progress Tracker** issue template.
 - Check off progress in that single tracker issue.
 
-### Track B (Optional): Generated Step Issues
-
-- Open the **Actions** tab in your own repo.
-- Run **Initialize Tutorial Issues**.
-- It creates one issue per step from `docs/steps/`.
-- Complete and close each issue as you go.
-
 ---
 
-## Setup Steps
+## Required Setup Steps
 
 - [ ] [Step 1: Create Your Account and Tutorial Copy](docs/steps/01-account-and-template.md)
 - [ ] [Step 2: Create Local Repo Folder and Install VS Code](docs/steps/02-install-tools.md)
 - [ ] [Step 3: Link VS Code to GitHub](docs/steps/03-link-vscode-to-github.md)
 - [ ] [Step 4: Clone `github-startup` in VS Code Source Control](docs/steps/04-clone-repo-locally.md)
 - [ ] [Step 5: Link Antigravity to `github-startup`](docs/steps/05-link-antigravity.md)
-- [ ] [Step 6: Link Codex to `github-startup`](docs/steps/06-link-codex.md)
-- [ ] [Step 7: Link Claude Code to `github-startup`](docs/steps/07-link-claude-code.md)
-- [ ] [Step 8: Verify Commit and Push in VS Code](docs/steps/08-verify-git-push.md)
-- [ ] [Step 9: Deploy `github-startup` to GitHub Pages](docs/steps/09-deploy-temporary-pages.md)
-- [ ] [Step 10: Choose Your Project Path](docs/steps/10-choose-project-path.md)
+- [ ] [Step 6: Authorize GitHub Extension and Push](docs/steps/06-authorize-github-extension-and-push.md)
+- [ ] [Step 7: Deploy `github-startup` to GitHub Pages](docs/steps/07-deploy-temporary-pages.md)
+- [ ] [Step 8: Choose Your Project Path](docs/steps/08-choose-project-path.md)
+
+## Optional Addendums
+
+- [ ] [Addendum A (Optional): Link Codex to `github-startup`](docs/addendums/addendum-a-link-codex.md)
+- [ ] [Addendum B (Optional): Link Claude Code to `github-startup`](docs/addendums/addendum-b-link-claude-code.md)
+- [ ] [Addendum C (Optional): Log In to GitHub CLI (`gh`)](docs/addendums/addendum-c-github-cli-login.md)
 
 ---
 
@@ -97,8 +97,10 @@ Note: The Week 8 URL includes `link-dashboard` from earlier naming. In this tuto
 
 - If a tool cannot see files, confirm you opened `Documents/GitHub/github-startup`.
 - If VS Code cannot clone from GitHub, re-check Step 3 sign-in.
+- If push fails with `failed to authenticate`, run `git config --global credential.helper`.
+- If helper is `store`, run `git config --global --unset credential.helper` and try push again.
+- If terminal tools cannot authenticate, run `gh auth login` (see Addendum C).
 - If GitHub Pages does not update immediately, wait 2-5 minutes and hard refresh.
-- If account auth fails, sign out/in again for that tool.
 
 ---
 

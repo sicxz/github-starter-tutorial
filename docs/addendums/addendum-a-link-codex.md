@@ -1,4 +1,4 @@
-# Step 6: Link Codex to `github-startup`
+# Addendum A (Optional): Link Codex to `github-startup`
 
 ## Goal
 Open the same local repo folder in Codex.
