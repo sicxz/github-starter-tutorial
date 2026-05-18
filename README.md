@@ -6,9 +6,17 @@ Goal: create one GitHub repository named `github-startup`, clone it locally, and
 
 No HTML, CSS, or development experience is required.
 
-After setup is complete, you can move to one of the build tracks:
-- Week 8 Personal Dashboard
-- Project #5 Research Dashboard
+After setup is complete, you turn the deployed page into a project-management
+dashboard based on your **AI+Design Studio Command Center** (Canvas: Project 2,
+Step 2). This is the beginnings, not Project 5.
+
+You are done when you can do all four of these - and do them again, at home,
+by yourself:
+
+1. Understand which coding tool you will use (Claude Code, Codex, or Antigravity).
+2. Know you can get that tool as a desktop app or use it inside VS Code.
+3. Connect it to GitHub.
+4. Publish a webpage via GitHub Pages.
 
 ---
 
@@ -20,7 +28,8 @@ By the end, you will have:
 - VS Code connected to your GitHub account
 - Antigravity pointed at that local folder
 - one commit pushed from VS Code as a setup check
-- a temporary GitHub Pages URL proving deployment works
+- a live GitHub Pages URL proving deployment works
+- a Command Center dashboard published at that URL (Step 8)
 - optional addendums for Codex, Claude Code, and GitHub CLI auth if needed
 
 ---
@@ -68,7 +77,7 @@ Before you begin Step 1, create your own copy of this tutorial repo so you can t
 - [ ] [Step 5: Link Antigravity to `github-startup`](docs/steps/05-link-antigravity.md)
 - [ ] [Step 6: Authorize GitHub Extension and Push](docs/steps/06-authorize-github-extension-and-push.md)
 - [ ] [Step 7: Deploy `github-startup` to GitHub Pages](docs/steps/07-deploy-temporary-pages.md)
-- [ ] [Step 8: Choose Your Project Path](docs/steps/08-choose-project-path.md)
+- [ ] [Step 8: Build Your Command Center Dashboard](docs/steps/08-choose-project-path.md)
 
 ## Optional Addendums
 
@@ -78,18 +87,17 @@ Before you begin Step 1, create your own copy of this tutorial repo so you can t
 
 ---
 
-## Project Paths After Setup
+## After Setup: Your Command Center Dashboard
 
-Once setup is complete, choose one:
+Once setup is complete, [Step 8](docs/steps/08-choose-project-path.md) walks
+you through it: using your AI coding tool, run the **Interview &#8594;
+Brainstorm &#8594; Plan &#8594; Code &#8594; Commit** loop to turn the
+deployed `index.html` into a dashboard based on your AI+Design Studio Command
+Center. Keep or trim the seven sections - all of them or a subset of what you
+built. Beginnings-level content is fine.
 
-- **Personal Dashboard**
-  - Repo: <https://github.com/sicxz/wk8-link-dashboard-assignment>
-  - Issues: <https://github.com/sicxz/wk8-link-dashboard-assignment/issues>
-- **Research Dashboard for Project 2**
-  - Repo: <https://github.com/sicxz/project5-research-dashboard-assignment>
-  - Issues: <https://github.com/sicxz/project5-research-dashboard-assignment/issues>
-
-Note: The Week 8 URL includes `link-dashboard` from earlier naming. In this tutorial we call it **Personal Dashboard**.
+Submit your live GitHub Pages URL on the **GitHub Starter Tutorial**
+assignment in Canvas.
 
 ---
 
