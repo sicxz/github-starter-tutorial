@@ -9,6 +9,6 @@ Use this index for the required setup path.
 5. [Step 5: Link Antigravity to `github-startup`](05-link-antigravity.md)
 6. [Step 6: Authorize GitHub Extension and Push](06-authorize-github-extension-and-push.md)
 7. [Step 7: Deploy `github-startup` to GitHub Pages](07-deploy-temporary-pages.md)
-8. [Step 8: Choose Your Project Path](08-choose-project-path.md)
+8. [Step 8: Build Your Command Center Dashboard](08-choose-project-path.md)
 
 Optional addendums are listed in [`docs/addendums/README.md`](../addendums/README.md).

@@ -14,7 +14,7 @@ assignees: ""
 - [ ] Step 5: Link Antigravity to `github-startup` (`docs/steps/05-link-antigravity.md`)
 - [ ] Step 6: Authorize GitHub Extension and Push (`docs/steps/06-authorize-github-extension-and-push.md`)
 - [ ] Step 7: Deploy `github-startup` to GitHub Pages (`docs/steps/07-deploy-temporary-pages.md`)
-- [ ] Step 8: Choose Your Project Path (`docs/steps/08-choose-project-path.md`)
+- [ ] Step 8: Build Your Command Center Dashboard (`docs/steps/08-choose-project-path.md`)
 
 ## Optional Addendums
 
